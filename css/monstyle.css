@@ -1,0 +1,253 @@
+/* .test{
+    color:red;
+}
+.parent .t2{
+
+}
+.parent,.parent_h{
+    color:red
+}
+div{
+
+}
+p{
+
+}
+a{
+   color:red;  
+} */
+/* .mon_text {
+    color: #6670ef;
+    font-size: 82px;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 30px;
+    text-shadow: 13px 4px 12px red;
+    text-decoration: underline;
+    font-family: cursive;
+} 
+.mon_div {
+    background: #0aa216;
+    height: 61px;
+    width: 50%;
+    border: 8px solid red;
+} */
+  
+/* menu */
+    .menu ul li {
+        text-transform: uppercase;
+        font-family: sans-serif;
+        list-style: none;
+        line-height: 27px;
+    }
+
+    .menu_liste {
+        float: right;
+        width: 50%;
+    }
+    .menu_liste ul li {
+        float: left;
+        /* margin-right: 27px; */
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .menu {
+        height: 55px;
+        max-width: 1261px;
+        margin: 0 auto;
+    } 
+    .menu_liste ul {
+        float: right;
+    }
+    .menu_liste ul li a {
+        font-size: 13px;
+        text-decoration: none;
+        color: white;
+        transition: linear 0.5s;
+    }
+    section.header {
+        background: url(../image/fond.jpg);
+        height: 100vh; 
+    }
+    .logo {
+        float: left;
+        margin-top: 9px;
+    }
+    body {
+        margin: 0;
+    }
+    .active,.menu_liste ul li a:hover{
+        background: #ffc61a;
+        padding: 9px;
+        border-radius: 19px;
+        color:black!important
+    }
+    .menu_liste li:hover {
+        transform: scale(1.1) rotate(45deg);
+
+    }
+    .menu_liste li {
+        transition: linear 0.5s;
+    }
+/*fin menu*/
+
+/* titre */
+    .titre {
+        font-size: 33px;
+        color: white;
+        text-align: center;
+        clear: both;
+        margin-top: 30px;
+        line-height: 58px;
+    }
+    span.t1 {
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-weight: 500;
+        color: #ffc61a;
+    }
+    span.t2 {
+        font-size: 55px;
+    }
+    span.t3 {
+        letter-spacing: 18px;
+        text-transform: uppercase;
+        font-size: 17px;
+
+    }
+/* fin titre */
+
+
+.voiture {
+    margin-top: 17px;
+    text-align: center;
+}
+section.book {
+    height: 100vh;
+    background: #ffc61a;
+}
+section.tarif {
+    height: 100vh;
+}
+.tarif-titre h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+span.or {
+    color: #ffc61a;
+}
+.tarif-titre {
+    line-height: 53px;
+    margin-top: 35px;
+}
+.colone {
+    width: 33.33%;
+    background: #f5f4f2;
+    text-align: center;
+    padding: 15px;
+}
+.grid {
+    max-width: 1138px;
+    margin: 0 auto;
+}
+
+.titre_tarif {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 21px;
+    margin-top: 46px;
+}
+.description {
+    margin-bottom: 22px;
+}
+
+.prix {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 17px;
+    color: #ffc61a;
+}
+.boutton a {
+    background: #ffc61a;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.boutton {
+    margin-top: 28px;
+    margin-bottom: 17px;
+}
+.image-detail {
+    position: relative;
+    /* background: red; */
+    height: 40px;
+}
+.image-detail .border {
+    position: absolute;
+    bottom: -26px;
+    width: 156px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 100%;
+    height: 160px;
+    width: 160px;
+    border: 10px solid #ffffff;
+    background: white;
+}
+.border img {
+    width: 150px;
+    margin-top: 44px;
+}
+.colone:last-child {
+    /* background: red; */
+    margin-right: 0;
+}
+.colone:last-child {
+    /* background: red; */
+    margin-right: 0;
+}
+.grid {
+    display: flex;
+    /* visibility: hidden; */
+}
+.bar{
+    display:none;
+}
+@media(min-width:1024px) and (max-width:1200px){
+    .menu_liste ul li a {
+        font-size: 10px;
+    }
+    .menu_liste ul li {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+}
+
+@media(max-width:1023px){
+    .bar{
+        display:inherit;
+        float: right;
+        margin-right: 16px;
+        margin-top: 12px;
+    }
+    .menu_liste ul {
+        display: none;
+    }
+}
+@media(max-width:768px){
+    .grid {
+        display: inherit;
+    }
+    .colone {
+        width: 100%;
+ 
+    }
+}
